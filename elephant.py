@@ -2,7 +2,7 @@ import math
 def eat_no(items):
     rd = items / 1000
     eat = 2 * rd - 1
-    print(eat)
+    return eat
     
 def elephant(km,items):
     if items>1000:
